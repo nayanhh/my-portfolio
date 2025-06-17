@@ -1,58 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nayana's Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f2f2f2;
+      background-color: #f3f4f6;
       margin: 0;
       padding: 0;
-      text-align: center;
+      color: #333;
     }
     header {
-      background: #4CAF50;
+      background-color: #5d3fd3;
       color: white;
-      padding: 1em 0;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      border: 4px solid white;
+      margin-bottom: 10px;
     }
     section {
-      padding: 2em;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
     }
-    footer {
-      background: #222;
+    h2 {
+      color: #5d3fd3;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔ ";
+      color: green;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #5d3fd3;
       color: white;
-      padding: 1em 0;
-      margin-top: 2em;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background-color: #4b32a8;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Hello, I'm Nayana</h1>
-    <p>Web Developer | Coder | Creator</p>
+    <img src="your-photo.jpg" alt="Nayana">
+    <h1>Hello, I'm Nayana!</h1>
+    <p>Graduate BCA student | PHP Intern | Python Full Stack Learner</p>
   </header>
 
   <section>
-    <h2>About Me</h2>
-    <p>This is my simple portfolio hosted on GitHub Pages.</p>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <ul style="list-style: none; padding-left: 0;">
-      <li>✔ Portfolio Website</li>
-      <li>✔ PHP Registration App</li>
-      <li>✔ Dashboard Redesign</li>
+    <h2>💼 Skills</h2>
+    <ul>
+      <li>Python (Full Stack)</li>
+      <li>PHP & MySQL</li>
+      <li>Java, HTML, CSS, Bootstrap</li>
+      <li>Git & GitHub</li>
+      <li>Android (Basic)</li>
     </ul>
   </section>
 
-  <footer>
-    <p>© 2025 Nayana. All rights reserved.</p>
-  </footer>
+  <section>
+    <h2>📞 Contact</h2>
+    <p>Email: <a href="cs.nayana123@gmail.com">cs.nayana123@example.com</a></p>
+    <p>LinkedIn: <a href="linkedin.com/in/nayana-cs-539875360" target="_blank">linkedin.com/in/nayana-cs-539875360</a></p>
+    <p>Location: palakkad, Kerala</p>
+  </section>
+
+  <section>
+    <h2>📄 Resume</h2>
+    <p>You can view or download my resume below:</p>
+    <a class="btn" href="resume.pdf" download>Download Resume</a>
+  </section>
 
 </body>
 </html>
-
